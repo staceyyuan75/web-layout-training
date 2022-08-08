@@ -1,0 +1,143 @@
+/*通用設定*/
+a {
+  display: block;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  font-family: 'Noto Sans', sans-serif;
+}
+.mt-1 {
+  margin-top: 8px;
+}
+.mt-2 {
+  margin-top: 16px;
+}
+.mt-3 {
+  margin-top: 24px;
+}
+.mt-9 {
+  margin-top: 72px;
+}
+.profile ,
+.education,
+.outbox,
+.work {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+/*各區塊設定*/
+.author {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 37px;
+  border-bottom: 1px solid #7f7f7f;
+  font-size: 80px;
+  line-height: 106px;
+}
+.author-photo {
+  margin: 48px 0;
+}
+.titlePrimary {
+  display: flex;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #000;
+  font-size: 32px;
+  line-height: 43px;
+}
+.titlePrimary span {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #a00404;
+  align-self: center;
+  margin-left: 16px;
+}
+
+.outbox {
+  background: #415165;
+  color: #fff;
+}
+.outbox .inner-container {
+  padding-bottom: 36px;
+}
+.inner-container {
+  width: 996px;
+  margin: 0 auto;
+}
+.titleSecondary {
+  border-bottom: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  padding-top: 24px;
+  padding-bottom: 8px;
+  font-size: 32px;
+  line-height: 45px;
+}
+.titleSecondary span {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  align-self: center;
+  margin-left: 16px;
+}
+.skills-list {
+  margin: 0 auto;
+  border-left: 1px solid #fff;
+  width: 220px;
+}
+.skills-list li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  margin-top: 16px;
+  padding-left: 24px;
+}
+.desc {
+  font-size: 20px;
+  line-height: 30px;
+}
+.work ul {
+  border-left: 1px solid #96A9C4;
+  margin-left: 24px;
+  width: 660px;
+}
+.work li {
+  padding-left: 24px;
+}
+.work-list li {
+  margin-top: 24px;
+}
+.work-list li:first-child {
+  margin-top: 16px;
+}
+.titleSecondary {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #fff;
+  padding-top: 24px;
+  padding-bottom: 8px;
+}
+.contact-list {
+  margin: 32px auto 16px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
+.contact-list a {
+  text-decoration: none;
+  color: #fff;
+}
+.contact-list li:nth-child(3) {
+  margin-top: 13px;
+}
+.contact-list li:nth-child(4) {
+  margin-top: 15px;
+}
+.share-tools {
+  display: flex;
+  justify-content: space-between;
+  width: 192px;
+  margin: 0 auto;
+}
